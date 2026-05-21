@@ -1,38 +1,38 @@
 {
   "schemaVersion": 1,
   "channel": "internal-test",
-  "updatedAt": "2026-05-21T01:37:20Z",
+  "updatedAt": "2026-05-21T01:52:00Z",
   "macos": {
     "latest": {
-      "version": "0.4.16",
-      "tag": "v0.4.16-mac-test.1",
+      "version": "0.4.18",
+      "tag": "v0.4.18-mac-test.1",
       "arch": "arm64",
-      "releaseUrl": "https://github.com/QIAO-666/magic-desktop-test-releases/releases/tag/v0.4.16-mac-test.1",
+      "releaseUrl": "https://github.com/QIAO-666/magic-desktop-test-releases/releases/tag/v0.4.18-mac-test.1",
       "installer": {
         "type": "dmg",
-        "fileName": "Magic-0.4.16-arm64.dmg",
-        "url": "https://github.com/QIAO-666/magic-desktop-test-releases/releases/download/v0.4.16-mac-test.1/Magic-0.4.16-arm64.dmg",
-        "size": 172869573,
-        "sha256": "69c15a411d4387ee9635ca670ea62d03a46d1115beba0f0c96859f8a978b0e0f"
+        "fileName": "Magic-0.4.18-arm64.dmg",
+        "url": "https://github.com/QIAO-666/magic-desktop-test-releases/releases/download/v0.4.18-mac-test.1/Magic-0.4.18-arm64.dmg",
+        "size": 172860671,
+        "sha256": "6a20b58bd0d00634ff99c6e4ce56c660287a2ce6e1ecdad4314cff0f585864b7"
       },
       "zip": {
-        "fileName": "Magic-0.4.16-arm64-mac.zip",
-        "url": "https://github.com/QIAO-666/magic-desktop-test-releases/releases/download/v0.4.16-mac-test.1/Magic-0.4.16-arm64-mac.zip",
-        "size": 165975029,
-        "sha256": "c18d6332472ca4bcaa37268d814ba3ce639084888cfea4d8796a61b34b21edfb"
+        "fileName": "Magic-0.4.18-arm64-mac.zip",
+        "url": "https://github.com/QIAO-666/magic-desktop-test-releases/releases/download/v0.4.18-mac-test.1/Magic-0.4.18-arm64-mac.zip",
+        "size": 165981587,
+        "sha256": "7476e564111d932fb79bb339a79985e8d57b4e1180e0d26f8e10e6665a3d6c19"
       },
       "blockmaps": [
         {
-          "fileName": "Magic-0.4.16-arm64.dmg.blockmap",
-          "url": "https://github.com/QIAO-666/magic-desktop-test-releases/releases/download/v0.4.16-mac-test.1/Magic-0.4.16-arm64.dmg.blockmap",
-          "size": 180886,
-          "sha256": "1748820b5afb9cb4f449534a8c3c1e928aa7518411a6467e90bb0cf76708ff67"
+          "fileName": "Magic-0.4.18-arm64.dmg.blockmap",
+          "url": "https://github.com/QIAO-666/magic-desktop-test-releases/releases/download/v0.4.18-mac-test.1/Magic-0.4.18-arm64.dmg.blockmap",
+          "size": 180712,
+          "sha256": "953b528832e805b387958891525dbb08cd7e472df7ef4613e4c931013bb8cb5e"
         },
         {
-          "fileName": "Magic-0.4.16-arm64-mac.zip.blockmap",
-          "url": "https://github.com/QIAO-666/magic-desktop-test-releases/releases/download/v0.4.16-mac-test.1/Magic-0.4.16-arm64-mac.zip.blockmap",
-          "size": 159138,
-          "sha256": "1b3c6a0190dcaf67dada496be3b4bff55e7af07a4a36314a802a94cf65aaac03"
+          "fileName": "Magic-0.4.18-arm64-mac.zip.blockmap",
+          "url": "https://github.com/QIAO-666/magic-desktop-test-releases/releases/download/v0.4.18-mac-test.1/Magic-0.4.18-arm64-mac.zip.blockmap",
+          "size": 159053,
+          "sha256": "e1bbb335257333728591b41d66277aef8145c14032e1352e15d34e82ca81217a"
         }
       ],
       "notes": [
