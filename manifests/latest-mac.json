@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "channel": "internal-test",
+  "updatedAt": "2026-05-21T01:37:20Z",
+  "macos": {
+    "latest": {
+      "version": "0.4.16",
+      "tag": "v0.4.16-mac-test.1",
+      "arch": "arm64",
+      "releaseUrl": "https://github.com/QIAO-666/magic-desktop-test-releases/releases/tag/v0.4.16-mac-test.1",
+      "installer": {
+        "type": "dmg",
+        "fileName": "Magic-0.4.16-arm64.dmg",
+        "url": "https://github.com/QIAO-666/magic-desktop-test-releases/releases/download/v0.4.16-mac-test.1/Magic-0.4.16-arm64.dmg",
+        "size": 172869573,
+        "sha256": "69c15a411d4387ee9635ca670ea62d03a46d1115beba0f0c96859f8a978b0e0f"
+      },
+      "zip": {
+        "fileName": "Magic-0.4.16-arm64-mac.zip",
+        "url": "https://github.com/QIAO-666/magic-desktop-test-releases/releases/download/v0.4.16-mac-test.1/Magic-0.4.16-arm64-mac.zip",
+        "size": 165975029,
+        "sha256": "c18d6332472ca4bcaa37268d814ba3ce639084888cfea4d8796a61b34b21edfb"
+      },
+      "blockmaps": [
+        {
+          "fileName": "Magic-0.4.16-arm64.dmg.blockmap",
+          "url": "https://github.com/QIAO-666/magic-desktop-test-releases/releases/download/v0.4.16-mac-test.1/Magic-0.4.16-arm64.dmg.blockmap",
+          "size": 180886,
+          "sha256": "1748820b5afb9cb4f449534a8c3c1e928aa7518411a6467e90bb0cf76708ff67"
+        },
+        {
+          "fileName": "Magic-0.4.16-arm64-mac.zip.blockmap",
+          "url": "https://github.com/QIAO-666/magic-desktop-test-releases/releases/download/v0.4.16-mac-test.1/Magic-0.4.16-arm64-mac.zip.blockmap",
+          "size": 159138,
+          "sha256": "1b3c6a0190dcaf67dada496be3b4bff55e7af07a4a36314a802a94cf65aaac03"
+        }
+      ],
+      "notes": [
+        "内测 macOS arm64 包。",
+        "未按正式发布流程处理签名、公证和灰度。",
+        "测试阶段允许直接覆盖安装。"
+      ]
+    }
+  }
+}
