@@ -11,20 +11,20 @@
 
 ## 最新 macOS 测试包
 
-当前测试版本：`0.4.16`
+当前测试版本：`0.4.18`
 
-Release Tag：`v0.4.16-mac-test.1`
+Release Tag：`v0.4.18-mac-test.1`
 
 Release 页面：
 
-- https://github.com/QIAO-666/magic-desktop-test-releases/releases/tag/v0.4.16-mac-test.1
+- https://github.com/QIAO-666/magic-desktop-test-releases/releases/tag/v0.4.18-mac-test.1
 
 预计资产：
 
-- `Magic-0.4.16-arm64.dmg`
-- `Magic-0.4.16-arm64-mac.zip`
-- `Magic-0.4.16-arm64.dmg.blockmap`
-- `Magic-0.4.16-arm64-mac.zip.blockmap`
+- `Magic-0.4.18-arm64.dmg`
+- `Magic-0.4.18-arm64-mac.zip`
+- `Magic-0.4.18-arm64.dmg.blockmap`
+- `Magic-0.4.18-arm64-mac.zip.blockmap`
 
 ## 给 AI Agent 的安装规则
 
@@ -57,7 +57,7 @@ docs/
   ota-test-flow.md
   ai-agent-install.md
 releases/
-  v0.4.16-mac-test.1.md
+  v0.4.18-mac-test.1.md
 scripts/
   install-latest-mac.sh
 ```
