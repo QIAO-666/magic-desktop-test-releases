@@ -22,9 +22,7 @@ Release 页面：
 预计资产：
 
 - `Magic-0.4.18-arm64.dmg`
-- `Magic-0.4.18-arm64-mac.zip`
-- `Magic-0.4.18-arm64.dmg.blockmap`
-- `Magic-0.4.18-arm64-mac.zip.blockmap`
+- `Magic-0.4.18-intel.dmg`
 
 ## 给 AI Agent 的安装规则
 
@@ -35,8 +33,8 @@ AI Agent 不需要解析自然语言 README 来判断最新版本，优先读取
 推荐流程：
 
 1. 读取 `manifests/latest-mac.json`。
-2. 获取 `macos.latest.installer.url`。
-3. 下载 DMG 到临时目录。
+2. 根据本机架构选择 `macos.latest.installers.arm64` 或 `macos.latest.installers.intel`。
+3. 下载对应 DMG 到临时目录。
 4. 校验 `sha256` 和 `size`。
 5. 退出正在运行的 `Magic.app`。
 6. 挂载 DMG。
