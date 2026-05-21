@@ -8,19 +8,26 @@ mkdir -p "$TMP_DIR"
 MANIFEST="$TMP_DIR/latest-mac.json"
 curl -L --fail -o "$MANIFEST" "$MANIFEST_URL"
 
-DMG_URL=$(/usr/bin/python3 - "$MANIFEST" <<'PY'
+ARCH=$(uname -m)
+if [ "$ARCH" = "arm64" ]; then
+  MANIFEST_ARCH="arm64"
+else
+  MANIFEST_ARCH="intel"
+fi
+
+DMG_URL=$(/usr/bin/python3 - "$MANIFEST" "$MANIFEST_ARCH" <<'PY'
 import json, sys
-print(json.load(open(sys.argv[1]))["macos"]["latest"]["installer"]["url"])
+print(json.load(open(sys.argv[1]))["macos"]["latest"]["installers"][sys.argv[2]]["url"])
 PY
 )
-DMG_SHA=$(/usr/bin/python3 - "$MANIFEST" <<'PY'
+DMG_SHA=$(/usr/bin/python3 - "$MANIFEST" "$MANIFEST_ARCH" <<'PY'
 import json, sys
-print(json.load(open(sys.argv[1]))["macos"]["latest"]["installer"]["sha256"])
+print(json.load(open(sys.argv[1]))["macos"]["latest"]["installers"][sys.argv[2]]["sha256"])
 PY
 )
-DMG_NAME=$(/usr/bin/python3 - "$MANIFEST" <<'PY'
+DMG_NAME=$(/usr/bin/python3 - "$MANIFEST" "$MANIFEST_ARCH" <<'PY'
 import json, sys
-print(json.load(open(sys.argv[1]))["macos"]["latest"]["installer"]["fileName"])
+print(json.load(open(sys.argv[1]))["macos"]["latest"]["installers"][sys.argv[2]]["fileName"])
 PY
 )
 
