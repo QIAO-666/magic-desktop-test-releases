@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "channel": "internal-test",
+  "updatedAt": "2026-05-21T01:37:20Z",
+  "windows": {
+    "latest": null,
+    "notes": [
+      "Windows 内测包暂未上传。",
+      "当前阶段允许 Windows 与 macOS 版本号不统一。",
+      "后续建议改为安装器包，再接入自动更新。"
+    ]
+  }
+}
