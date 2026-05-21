@@ -16,14 +16,14 @@
 1. 在开发仓库打包桌面端。
 2. 生成本次测试版本号和 Release Tag。
 3. 计算安装包 `sha256` 和文件大小。
-4. 上传安装包到 GitHub Release。
+4. 上传 macOS arm64 和 Intel 两个 DMG 到 GitHub Release。
 5. 更新 `manifests/latest-mac.json` 或 `manifests/latest-windows.json`。
 6. 更新 Release 说明文档。
 7. 测试机根据 manifest 下载并安装。
 
 ## macOS 测试安装流程
 
-1. 下载 DMG。
+1. 根据本机架构下载对应 DMG。
 2. 校验哈希。
 3. 退出 `Magic.app`。
 4. 挂载 DMG。
