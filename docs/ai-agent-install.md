@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/QIAO-666/magic-desktop-test-releases/main/mani
 
 1. 读取 manifest。
 2. 比较 `macos.latest.version` 与本地版本。
-3. 下载 `macos.latest.installer.url`。
+3. 根据本机架构下载 `macos.latest.installers.arm64.url` 或 `macos.latest.installers.intel.url`。
 4. 校验 `sha256` 和 `size`。
 5. 退出本地 `Magic.app`。
 6. 挂载 DMG。
